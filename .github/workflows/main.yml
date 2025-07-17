@@ -1,0 +1,32 @@
+name: Ebac CI
+
+on:
+  push:
+    branches: [CI]
+
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '14'
+      - name: cypress run
+        uses: Cypress.io/github-actions@v2
+        continue-on-error: true
+        with:
+          install-command: npm install
+          Browser: chrome
+      - name: Publish Report
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./TestReport
+  
+
+
+  
