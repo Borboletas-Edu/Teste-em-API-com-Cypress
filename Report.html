@@ -1,0 +1,195 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+      <style>
+        th, td {
+          text-align: center;
+        }
+        th.shaded-label {
+          color: #A0A0A0; /* shade of grey */
+        }
+        .passed {
+          color: green;
+        }
+        .failed {
+          color: red;
+        }
+        .skipped {
+          color: #FEBE10;
+        }
+      </style>
+      <title>Automation Test Report</title>
+      <link rel="icon" href="/assets/CyLogo.ico">
+      <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    </head>
+    <body>
+      
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <img src="https://cdn1.iconfinder.com/data/icons/testing-8/128/Set16-02-1024.png" alt="Logo" class="mr-2" style="height: 30px;">
+    <span class="navbar-brand mb-0 h1">Automation Test Report</span>
+  </nav>
+  <div class="container mt-3">
+    <div class="navbar-text" style="font-size: medium; color: #888;">
+      Browser: chrome - 138.0.7204.100  |  Cypress Ver: 14.5.2  |
+      Platform OS: linux  |  Passed: 8  | Failed: 2 |  Skipped: 0 |
+      Total Tests: 10
+    </div>
+  </div>
+
+      <div class="container mt-3">
+      <div class="row">
+        <div class="col">
+          <div class="text-center">
+            <canvas id="testChart" width="250" height="250"></canvas>
+          </div>
+        </div>
+        <div class="col">
+          <div class="info-table-container">
+            
+  <table class="table mt-3">
+    <tbody>
+      <tr>
+        <th class="shaded-label">Passing %</th>
+        <td>80%</td>
+      </tr>
+      <tr>
+        <th class="shaded-label">Failing %</th>
+        <td>20%</td>
+      </tr>
+      <tr>
+        <th class="shaded-label">Start Time</th>
+        <td>Jul 17, 2025, 01:01 PM UTC </td>
+      </tr>
+      <tr>
+        <th class="shaded-label">End Time</th>
+        <td>Jul 17, 2025, 01:02 PM UTC</td>
+      </tr>
+      <tr>
+        <th class="shaded-label">Execution time</th>
+        <td>0 min 4 sec</td>
+      </tr>
+    </tbody>
+  </table>
+
+          </div>
+        </div>
+      </div>
+    </div>
+      <div class="container mt-3">
+        <table class="table mt-3">
+          <thead>
+            <tr>
+              <th style="width: 45%;">Test</th>
+              <th style="width: 45%;">Result</th>
+              <th style="width: 5%;">Artifacts</th>
+              <th style="width: 5%;">Duration</th>
+            </tr>
+          </thead>
+          <tbody>
+            
+        <tr >
+          <td style="width: 45%; text-align: left;">[Testes de respostas na API de categorias] Deve validar contrato da api de categorias</td>
+          <td style="width: 45%; text-align: center;" class="failed">ValidationError: "_id" is not allowed</td>
+          <td style="width: 5%; text-align: center;"> <a href="http://127.0.0.1:8080/cypress/screenshots/apiCategorias.cy.js/Testes de respostas na API de categorias -- Deve validar contrato da api de categorias (failed).png" target="_blank">Screenshot</a></td>
+          <td style="width: 5%;">00 min 01 sec</td>
+        </tr>
+      
+        <tr >
+          <td style="width: 45%; text-align: left;">[Testes de respostas na API de categorias] Deve validar contrato da api de produtos</td>
+          <td style="width: 45%; text-align: center;" class="failed">ValidationError: "categories" is not allowed</td>
+          <td style="width: 5%; text-align: center;"> <a href="http://127.0.0.1:8080/cypress/screenshots/apiProdutos.cy.js/Testes de respostas na API de categorias -- Deve validar contrato da api de produtos (failed).png" target="_blank">Screenshot</a></td>
+          <td style="width: 5%;">00 min 01 sec</td>
+        </tr>
+      
+        <tr >
+          <td style="width: 45%; text-align: left;">[Testes de respostas na API de categorias] Deve acessar as categorias categorias</td>
+          <td style="width: 45%; text-align: center;" class="passed">Pass</td>
+          <td style="width: 5%; text-align: center;"></td>
+          <td style="width: 5%;">00 min 02 sec</td>
+        </tr>
+      
+        <tr >
+          <td style="width: 45%; text-align: left;">[Testes de respostas na API de categorias] Deve adicionar uma categoria</td>
+          <td style="width: 45%; text-align: center;" class="passed">Pass</td>
+          <td style="width: 5%; text-align: center;"></td>
+          <td style="width: 5%;">00 min 01 sec</td>
+        </tr>
+      
+        <tr >
+          <td style="width: 45%; text-align: left;">[Testes de respostas na API de categorias] Deve cadastrar e editar uma categoria</td>
+          <td style="width: 45%; text-align: center;" class="passed">Pass</td>
+          <td style="width: 5%; text-align: center;"></td>
+          <td style="width: 5%;">00 min 01 sec</td>
+        </tr>
+      
+        <tr >
+          <td style="width: 45%; text-align: left;">[Testes de respostas na API de categorias] Deve excluir categoria</td>
+          <td style="width: 45%; text-align: center;" class="passed">Pass</td>
+          <td style="width: 5%; text-align: center;"></td>
+          <td style="width: 5%;">00 min 01 sec</td>
+        </tr>
+      
+        <tr >
+          <td style="width: 45%; text-align: left;">[Api de login] Deve fazer login com sucesso</td>
+          <td style="width: 45%; text-align: center;" class="passed">Pass</td>
+          <td style="width: 5%; text-align: center;"></td>
+          <td style="width: 5%;">00 min 01 sec</td>
+        </tr>
+      
+        <tr >
+          <td style="width: 45%; text-align: left;">[Testes de respostas na API de categorias] Deve adicionar um produto</td>
+          <td style="width: 45%; text-align: center;" class="passed">Pass</td>
+          <td style="width: 5%; text-align: center;"></td>
+          <td style="width: 5%;">00 min 01 sec</td>
+        </tr>
+      
+        <tr >
+          <td style="width: 45%; text-align: left;">[Testes de respostas na API de categorias] Deve editar produto</td>
+          <td style="width: 45%; text-align: center;" class="passed">Pass</td>
+          <td style="width: 5%; text-align: center;"></td>
+          <td style="width: 5%;">00 min 01 sec</td>
+        </tr>
+      
+        <tr >
+          <td style="width: 45%; text-align: left;">[Testes de respostas na API de categorias] Deve excluir produto</td>
+          <td style="width: 45%; text-align: center;" class="passed">Pass</td>
+          <td style="width: 5%; text-align: center;"></td>
+          <td style="width: 5%;">00 min 01 sec</td>
+        </tr>
+      
+          </tbody>
+        </table>
+      </div>
+
+      <script>
+        document.addEventListener('DOMContentLoaded', function () {
+          // Call a function to draw the pie chart
+          drawPieChart(8, 2, 0);
+        });
+
+        function drawPieChart(pass, fail, skipped) {
+          var ctx = document.getElementById('testChart').getContext('2d');
+          var myPieChart = new Chart(ctx, {
+            type: 'pie',
+            data: {
+              labels: ['Pass', 'Fail', 'Skipped'],
+              datasets: [{
+                data: [pass, fail, skipped],
+                backgroundColor: ['#568203', '#CD5C5C', '#FFC72C'], // Customize colors if needed
+              }]
+            },
+            options: {
+              responsive: true,
+              maintainAspectRatio: false,
+            }
+          });
+        }
+      </script>
+
+    </body>
+    </html>
+  
