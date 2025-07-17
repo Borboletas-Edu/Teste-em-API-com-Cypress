@@ -9,7 +9,8 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "cypress": "^14.5.1"
+    "cypress": "^14.5.1",
+    "joi": "^17.13.3"
   },
   "devDependencies": {
     "cypress-dotenv": "^3.0.1"

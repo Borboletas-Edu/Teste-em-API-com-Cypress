@@ -1,0 +1,13 @@
+{
+  "name": "Deltarune capitulo",
+  "price": 40.00,
+  "quantity": 20,
+  "categories": "Deltarune",
+  "description": "jogo",
+  "photos": "https://projectn.com.br/wp-content/uploads/2022/09/deltarune-capitulo-2-comecou-a-ser-desenvolvido-em-maio-deste-ano-1024x460.webp",
+  "popular": "true",
+  "visible": "true",
+  "location": "",
+  "additionalDetails": "",
+  "specialPrice": 0
+}
