@@ -7,7 +7,7 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
-    
+
     steps:
       - uses: actions/checkout@v4
 
@@ -15,20 +15,26 @@ jobs:
         with:
           node-version: '14'
 
-      - name: cypress run
+      - name: Instalar dependências
+        run: npm install
+
+      - name: Executar testes com Cypress
         continue-on-error: true
         uses: cypress-io/github-action@v2
         with:
           install-command: npm install
-          browser: chrome
           config-file: cypress.config.js
-          star: npm start
+          browser: chrome
 
-      - name: Publish Report
+      - name: Renomear Report.html para index.html
+        run: mv TestReport/Report.html TestReport/index.html
+
+      - name: Publicar relatório no GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./TestReport
+
 
   
 
