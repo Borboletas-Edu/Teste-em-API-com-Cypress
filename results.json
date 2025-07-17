@@ -45,7 +45,7 @@
     "numTestsKeptInMemory": 0,
     "platform": "linux",
     "pageLoadTimeout": 60000,
-    "port": 35387,
+    "port": 43509,
     "projectId": null,
     "redirectionLimit": 20,
     "reporter": "spec",
@@ -130,7 +130,7 @@
     "cypressInternalEnv": "production"
   },
   "cypressVersion": "14.5.2",
-  "endedTestsAt": "2025-07-17T13:02:00.451Z",
+  "endedTestsAt": "2025-07-17T13:08:21.977Z",
   "osName": "linux",
   "osVersion": "Ubuntu - ",
   "runs": [
@@ -143,16 +143,16 @@
         "passes": 4,
         "pending": 0,
         "failures": 1,
-        "start": "2025-07-17T13:01:53.386Z",
-        "end": "2025-07-17T13:01:55.713Z",
-        "duration": 2327
+        "start": "2025-07-17T13:08:13.979Z",
+        "end": "2025-07-17T13:08:16.979Z",
+        "duration": 3000
       },
       "screenshots": [
         {
           "height": 633,
           "name": null,
           "path": "/home/runner/work/Teste-em-API-com-Cypress/Teste-em-API-com-Cypress/cypress/screenshots/apiCategorias.cy.js/Testes de respostas na API de categorias -- Deve validar contrato da api de categorias (failed).png",
-          "takenAt": "2025-07-17T13:01:54.955Z",
+          "takenAt": "2025-07-17T13:08:16.021Z",
           "width": 1280
         }
       ],
@@ -164,13 +164,13 @@
         "relative": "cypress/e2e/apiCategorias.cy.js"
       },
       "stats": {
-        "duration": 2330,
-        "endedAt": "2025-07-17T13:01:55.711Z",
+        "duration": 3004,
+        "endedAt": "2025-07-17T13:08:16.978Z",
         "failures": 1,
         "passes": 4,
         "pending": 0,
         "skipped": 0,
-        "startedAt": "2025-07-17T13:01:53.381Z",
+        "startedAt": "2025-07-17T13:08:13.974Z",
         "suites": 1,
         "tests": 5
       },
@@ -182,7 +182,7 @@
             }
           ],
           "displayError": null,
-          "duration": 1147,
+          "duration": 1620,
           "state": "passed",
           "title": [
             "Testes de respostas na API de categorias",
@@ -196,7 +196,7 @@
             }
           ],
           "displayError": null,
-          "duration": 149,
+          "duration": 209,
           "state": "passed",
           "title": [
             "Testes de respostas na API de categorias",
@@ -210,7 +210,7 @@
             }
           ],
           "displayError": "ValidationError: \"_id\" is not allowed",
-          "duration": 449,
+          "duration": 356,
           "state": "failed",
           "title": [
             "Testes de respostas na API de categorias",
@@ -224,7 +224,7 @@
             }
           ],
           "displayError": null,
-          "duration": 269,
+          "duration": 393,
           "state": "passed",
           "title": [
             "Testes de respostas na API de categorias",
@@ -238,7 +238,7 @@
             }
           ],
           "displayError": null,
-          "duration": 268,
+          "duration": 391,
           "state": "passed",
           "title": [
             "Testes de respostas na API de categorias",
@@ -257,9 +257,9 @@
         "passes": 1,
         "pending": 0,
         "failures": 0,
-        "start": "2025-07-17T13:01:57.201Z",
-        "end": "2025-07-17T13:01:57.622Z",
-        "duration": 421
+        "start": "2025-07-17T13:08:18.311Z",
+        "end": "2025-07-17T13:08:18.797Z",
+        "duration": 486
       },
       "screenshots": [],
       "spec": {
@@ -270,13 +270,13 @@
         "relative": "cypress/e2e/apiLogin.cy.js"
       },
       "stats": {
-        "duration": 424,
-        "endedAt": "2025-07-17T13:01:57.621Z",
+        "duration": 489,
+        "endedAt": "2025-07-17T13:08:18.796Z",
         "failures": 0,
         "passes": 1,
         "pending": 0,
         "skipped": 0,
-        "startedAt": "2025-07-17T13:01:57.197Z",
+        "startedAt": "2025-07-17T13:08:18.307Z",
         "suites": 1,
         "tests": 1
       },
@@ -288,7 +288,7 @@
             }
           ],
           "displayError": null,
-          "duration": 420,
+          "duration": 485,
           "state": "passed",
           "title": [
             "Api de login",
@@ -307,16 +307,16 @@
         "passes": 3,
         "pending": 0,
         "failures": 1,
-        "start": "2025-07-17T13:01:59.047Z",
-        "end": "2025-07-17T13:02:00.453Z",
-        "duration": 1406
+        "start": "2025-07-17T13:08:20.208Z",
+        "end": "2025-07-17T13:08:21.978Z",
+        "duration": 1770
       },
       "screenshots": [
         {
           "height": 633,
           "name": null,
           "path": "/home/runner/work/Teste-em-API-com-Cypress/Teste-em-API-com-Cypress/cypress/screenshots/apiProdutos.cy.js/Testes de respostas na API de categorias -- Deve validar contrato da api de produtos (failed).png",
-          "takenAt": "2025-07-17T13:01:59.761Z",
+          "takenAt": "2025-07-17T13:08:21.089Z",
           "width": 1280
         }
       ],
@@ -328,13 +328,13 @@
         "relative": "cypress/e2e/apiProdutos.cy.js"
       },
       "stats": {
-        "duration": 1408,
-        "endedAt": "2025-07-17T13:02:00.451Z",
+        "duration": 1772,
+        "endedAt": "2025-07-17T13:08:21.977Z",
         "failures": 1,
         "passes": 3,
         "pending": 0,
         "skipped": 0,
-        "startedAt": "2025-07-17T13:01:59.043Z",
+        "startedAt": "2025-07-17T13:08:20.205Z",
         "suites": 1,
         "tests": 4
       },
@@ -346,7 +346,7 @@
             }
           ],
           "displayError": null,
-          "duration": 561,
+          "duration": 668,
           "state": "passed",
           "title": [
             "Testes de respostas na API de categorias",
@@ -360,7 +360,7 @@
             }
           ],
           "displayError": "ValidationError: \"categories\" is not allowed",
-          "duration": 244,
+          "duration": 287,
           "state": "failed",
           "title": [
             "Testes de respostas na API de categorias",
@@ -374,7 +374,7 @@
             }
           ],
           "displayError": null,
-          "duration": 294,
+          "duration": 396,
           "state": "passed",
           "title": [
             "Testes de respostas na API de categorias",
@@ -388,7 +388,7 @@
             }
           ],
           "displayError": null,
-          "duration": 282,
+          "duration": 392,
           "state": "passed",
           "title": [
             "Testes de respostas na API de categorias",
@@ -399,8 +399,8 @@
       "video": null
     }
   ],
-  "startedTestsAt": "2025-07-17T13:01:53.381Z",
-  "totalDuration": 4162,
+  "startedTestsAt": "2025-07-17T13:08:13.974Z",
+  "totalDuration": 5265,
   "totalFailed": 2,
   "totalPassed": 8,
   "totalPending": 0,
